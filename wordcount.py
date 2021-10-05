@@ -1,5 +1,5 @@
 line = input(). split()
 sett = list(set(line))
 
-for (i) in sett :
-  print( i, '=' , line.count(i) )
+for (l) in sett :
+  print( l, '=' , line.count(l) )
