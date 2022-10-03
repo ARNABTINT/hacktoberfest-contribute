@@ -9,7 +9,7 @@ ans=True
 for i in range(2, n):
   if n%i==0:
     ans=False
-if ans==True:
-  print("Prime Number")
-else:
-  print("Not Prime Number")
+       if ans==True:
+          print("Prime Number")
+  else:
+      print("Not Prime Number")
